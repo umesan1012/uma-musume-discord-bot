@@ -14,7 +14,7 @@ import discord4j.core.event.domain.Event;
 
 @Configuration
 public class BotConfiguration {
-	@Value("${token}")
+	@Value("${discord.bot.token}")
     private String token;
 	
 	@Bean
